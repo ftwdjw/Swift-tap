@@ -9,7 +9,15 @@
 import UIKit
 
 class ViewController: UIViewController {
+    var count = 0
 
+    @IBAction func getTap(_ sender: UITapGestureRecognizer) {
+        count += 1
+        print("this is a tap \(count)")
+         let location = sender.location(in: self.view)
+        
+        print(location)
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
