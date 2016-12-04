@@ -13,6 +13,7 @@
 		1BAB968E1DF3C1280008AA35 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1BAB968D1DF3C1280008AA35 /* Assets.xcassets */; };
 		1BAB96911DF3C1280008AA35 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BAB968F1DF3C1280008AA35 /* LaunchScreen.storyboard */; };
 		1BAB96991DF3C3EF0008AA35 /* readMe.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 1BAB96981DF3C3EF0008AA35 /* readMe.rtf */; };
+		1BAB969B1DF4620C0008AA35 /* tap.png in Resources */ = {isa = PBXBuildFile; fileRef = 1BAB969A1DF4620C0008AA35 /* tap.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		1BAB96901DF3C1280008AA35 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1BAB96921DF3C1280008AA35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1BAB96981DF3C3EF0008AA35 /* readMe.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = readMe.rtf; sourceTree = "<group>"; };
+		1BAB969A1DF4620C0008AA35 /* tap.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tap.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 				1BAB96981DF3C3EF0008AA35 /* readMe.rtf */,
 				1BAB968D1DF3C1280008AA35 /* Assets.xcassets */,
 				1BAB968F1DF3C1280008AA35 /* LaunchScreen.storyboard */,
+				1BAB969A1DF4620C0008AA35 /* tap.png */,
 				1BAB96921DF3C1280008AA35 /* Info.plist */,
 			);
 			path = tapSwift;
@@ -128,6 +131,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1BAB96911DF3C1280008AA35 /* LaunchScreen.storyboard in Resources */,
+				1BAB969B1DF4620C0008AA35 /* tap.png in Resources */,
 				1BAB968E1DF3C1280008AA35 /* Assets.xcassets in Resources */,
 				1BAB96991DF3C3EF0008AA35 /* readMe.rtf in Resources */,
 				1BAB968C1DF3C1280008AA35 /* Main.storyboard in Resources */,

@@ -9,6 +9,14 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    
+    @IBOutlet var imageView: UIImageView!
+    
+    
+    //load pictures
+    
+    let tap = UIImage.init(named: "tap")
     var count = 0
 
     @IBAction func getTap(_ sender: UITapGestureRecognizer) {
@@ -17,6 +25,8 @@ class ViewController: UIViewController {
          let location = sender.location(in: self.view)
         
         print(location)
+        self.imageView.image = tap
+        self.imageView.center = location
     }
     override func viewDidLoad() {
         super.viewDidLoad()
